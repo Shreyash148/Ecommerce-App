@@ -1,0 +1,55 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    margin-top:1rem;
+    margin-left: 2rem;
+    width:15rem;
+    box-shadow: 0rem 0rem 1rem 0rem black;
+    background-color: white;
+}
+.box-item{
+    color:black;
+    border-bottom: 0.1px solid black;
+    padding:1rem;
+    font-size: larger;
+    font-weight: 600;
+    width: 15rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box-item:hover{
+    background-color:rgb(1, 99, 123);
+    color:white;
+}
+.panel{
+    margin-top:1rem;
+    margin-left: 5rem;
+}
+.dashboard{
+    display:flex;
+    flex-direction: row;
+}
+.adminInfo{
+    margin:3rem;
+    padding: 1rem;
+    padding-left: 5rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.adminInfo pre{
+    font-size:xx-large;
+}
+.adminInfo input{
+    padding: 0.5rem;
+    margin:0.75rem;
+    border:none;
+    border-radius: 0.75rem;
+    box-shadow: 0rem 0rem 1rem 0rem rgb(65, 77, 81);
+    width:100%;
+    font-size: larger;
+    outline:none;
+}
+.margin{
+    margin-left:8rem;
+}

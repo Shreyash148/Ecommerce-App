@@ -1,0 +1,35 @@
+.modal-container{
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    top:0%;
+    bottom:10%;
+    height: 100%;
+    width:100%;
+    background-color: rgb(129, 121, 121,0.8);
+    z-index: 99;
+}
+.modal{
+    background-color: white;
+    box-shadow: 0rem 0rem 1rem 0rem rgb(65, 77, 81);
+    margin:1rem 15rem;
+    overflow-y: auto;
+}
+.modal-cat{
+    background-color: white;
+    box-shadow: 0rem 0rem 1rem 0rem rgb(65, 77, 81);
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+    margin-left: 25rem;
+}
+.modal-content{
+    padding:1rem 3rem;
+}
+.close{
+    margin-left:92%;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+    padding:0.5rem;
+    background-color: red;
+}

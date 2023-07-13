@@ -1,0 +1,104 @@
+.banner img{
+    width:100%;
+    height:60vh;
+    margin:0rem;
+}
+.home{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+}
+.filter-box{
+    margin:0rem;
+    padding: 1rem;
+    box-shadow: 0rem 0rem 1rem 0rem rgb(120, 118, 118);
+    background-color: rgb(110, 110, 110);
+    color:white;
+    width:30%;
+    min-height: 70vh;
+}
+.filter-box form{
+    position: sticky;
+    top:15%;
+    overflow-y: auto;
+}
+.filter-icon{
+    position:sticky;
+    top:15%;
+    margin:1rem 0rem;
+    width:5%;
+    padding:0.5rem;
+    background-color:rgb(54, 54, 31);
+    box-shadow: 0rem 0rem 1rem 0rem rgb(120, 118, 118);
+    border-radius: 0px 10px 50px 0px;
+}
+.all-products{
+    width:100%;
+    margin:0rem;
+    padding: 0rem;
+    position:relative;
+}
+.filterHead{
+    text-align: center;
+    padding:0rem;
+    padding-top: 1rem;
+}
+.filter-elements{
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+.search{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.search input{
+    padding: 0.5rem;
+    height: 2.5rem;
+    margin:0.5rem 0rem;
+    border:none;
+    border-radius: 0.75rem 0rem 0rem 0.75rem;
+    box-shadow: 0rem 0rem 1rem 0rem rgb(120, 118, 118);
+    width:35%;
+    font-size: larger;
+    outline:none;
+}
+.search button{
+    background-color: green;
+    cursor: pointer;
+    color:white;
+    margin:0.5rem 0rem;
+    padding:0.5rem 2rem;
+    font-size: larger;
+    border:1px solid;
+    border-radius: 0rem 0.75rem 0.75rem 0rem;
+}
+.search button:hover{
+    background-color: white;
+    color:green;
+}
+.reset{
+    text-align: center;
+}
+.reset button{
+    padding:0.75rem;
+    background-color:brown;
+    color:white;
+    border:none;
+    margin-top:1rem;
+    border-radius: 1rem;
+}
+.reset button:hover{
+    background-color:white;
+    color:brown;
+    border:1px solid brown;
+}
+.head{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:grey;
+    text-shadow: 1px 0px 1px  black;
+    font-size: x-large;
+}

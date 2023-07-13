@@ -1,0 +1,63 @@
+.dashboard{
+    display:flex;
+    flex-direction: row;
+}
+.orders-area{
+    margin:3rem;
+    padding: 1rem;
+    padding-left: 5rem;
+    font-weight: 600;
+    width:90%;
+}
+.order-box{
+    border:1px solid rgb(164, 164, 164);
+    border-radius: 1rem;
+    margin:1rem;
+}
+.order-top{
+    background-color: rgb(197, 190, 190);
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.order-placed{
+    padding:0.75rem 4rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: small;
+}
+.order-status{
+    padding:1rem 3rem;
+}
+.ordered-product{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 1rem;
+    height:7rem;
+    width:70%;
+    margin-left: 5rem;
+    position: relative;
+}
+.manage-box{
+    margin:2rem;
+}
+.manage-box table{
+    width:100%;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 4px 2px grey;
+    text-align: center;
+}
+.manage-box th{
+    padding:0.75rem;
+    background-color: grey;
+}
+.manage-box td{
+    padding:0.75rem;
+    border-bottom: 1px solid grey;
+}
+.status-drop{
+    font-size: medium;
+    padding:0.5rem;
+}

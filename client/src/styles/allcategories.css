@@ -1,0 +1,31 @@
+.catButton{
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+.catButton button{
+    margin:1rem;
+    padding:2rem;
+    border:0.5px solid black;
+    background-color:white;
+    border-radius: 0.25rem;
+    font-size: large;
+    text-transform: capitalize;
+    width:15rem;
+}
+.catButton button:hover{
+    background-color: grey;
+    color:white;
+    border: 1px solid white;
+}
+.heading{
+    text-align: center;
+    margin: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:grey;
+    font-size: xx-large;
+}
+.cats{
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+.area{
+    margin:2rem;
+    text-align: center;
+}
+.detail-area{
+    width:100%;
+}
+.detailBox{
+    display:flex;
+    flex-direction: row;
+    margin:2rem; 
+    margin-left:8%;   
+}
+.detailBox img{
+    object-fit:contain;
+    width:30%;
+    margin:1rem;
+}
+.descBox{
+    margin-left: 4rem;
+    font-size: larger;
+    text-align: left;
+    line-height: 1.5;
+    width:50%;
+}
+.suggestion-box{
+    text-align: left;
+    padding-top: 2rem;
+}
+.add-cart-button{
+    color:white;
+    background-color: grey;
+    border:none;
+    padding:0.5rem 7rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: medium;
+    width:100%;
+}
+.add-cart-button:hover{
+    background-color: white;
+    border:1px solid black;
+    color:black;
+}
