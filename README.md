@@ -1,7 +1,7 @@
 # Ecommerce-App
 ### Home Page
-<img width="500" alt="Screenshot 2023-07-18 121405" src="https://github.com/Shreyash148/Ecommerce-App/assets/97425521/c9eda1e8-7f8f-430e-a764-adc291ef33fc">
-<img width="500" alt="Screenshot 2023-07-18 121613" src="https://github.com/Shreyash148/Ecommerce-App/assets/97425521/55666e50-406a-481a-bbb2-2190447d8b33">
+<img width="400" alt="Screenshot 2023-07-18 121405" src="https://github.com/Shreyash148/Ecommerce-App/assets/97425521/c9eda1e8-7f8f-430e-a764-adc291ef33fc">
+<img width="400" alt="Screenshot 2023-07-18 121613" src="https://github.com/Shreyash148/Ecommerce-App/assets/97425521/55666e50-406a-481a-bbb2-2190447d8b33">
 
 ### Cart
 <img width="500" alt="Screenshot 2023-07-18 121757" src="https://github.com/Shreyash148/Ecommerce-App/assets/97425521/e14e46a5-8d60-4bdc-a3f4-3869af2da3ba">
