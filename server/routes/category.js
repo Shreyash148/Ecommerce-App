@@ -19,7 +19,7 @@ async(req,res)=>{
     if(existingCategory){
         return res.send({success:false,message:"Category already exists"});
     }
-    const category = new Category({name,slug:slugify(name)});
+    const category = new category({name,slug:slugify(name)});
     await category.save();
     return res.send({success:true,message:"Category created",category})
 });
