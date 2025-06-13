@@ -32,7 +32,7 @@ route.get('/getall',async(req,res)=>{
 
         return res.send({success:true,category}); 
     } catch (error) {
-        return res.send({success:false,message:"something went wrong---",error});
+        return res.send({success:false,message:"something went wrong",error});
     }
 });
 //get specific category
