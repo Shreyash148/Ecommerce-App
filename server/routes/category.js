@@ -21,14 +21,14 @@ async(req,res)=>{
     }
     const category = new category({name,slug:slugify(name)});
     await category.save();
-    return res.send({success:true,message:"Category created",category})
+    return res.send({success:true,message:"Category created",Category})
 });
 
 
 //getall category
 route.get('/getall',async(req,res)=>{
     try {
-        const category = await Category.find();
+        const category = Category.find();
 
         return res.send({success:true,category}); 
     } catch (error) {
@@ -38,7 +38,7 @@ route.get('/getall',async(req,res)=>{
 //get specific category
 route.get('/getone/:id', async(req,res)=>{
     try {
-        const category = await Category.findOne({_id:req.params.id});
+        const category = Category.findOne({_id:req.params.id});
     return res.send({success:true,category}); 
     } catch (error) {
         return res.send({success:false,message:"something went wrong",error});
