@@ -41,7 +41,7 @@ route.get('/getone/:id', async(req,res)=>{
         const category = Category.findOne({_id:req.params.id});
     return res.redirect({success:true,category}); 
     } catch (error) {
-        return res.send({success:false,message:"something went wrong",error});
+        return res.send({success:false,message:"something went wron",error});
     }
 });
 
