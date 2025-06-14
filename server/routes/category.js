@@ -28,11 +28,11 @@ async(req,res)=>{
 //getall category
 route.get('/getall',async(req,res)=>{
     try {
-        const category = await Category.find();
+        const category = Category.find();
 
         return res.send({success:true,category}); 
     } catch (error) {
-        return res.send({success:false,message:"something went wrong",error});
+        return res.send({success:false,message:"something went wrong",errors});
     }
 });
 //get specific category
