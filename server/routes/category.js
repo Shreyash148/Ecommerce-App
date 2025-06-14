@@ -54,7 +54,7 @@ route.put('/update/:id',isAdmin, async(req,res)=>{
         const category = await Category.findByIdAndUpdate(id,{name,slug:slugify(name)}).then();
         return res.send({success:true,category,message:"category updated successfully"}); 
     } catch (error) {
-        return res.send({success:false,message:"something went wrong",error});
+        return res.send({success:false,message:"something went wrong",errors});
     }
 });
 
