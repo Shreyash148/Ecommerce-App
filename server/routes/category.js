@@ -21,7 +21,7 @@ async(req,res)=>{
     }
     const category = new category({name,slug:slugify(name)});
     await category.save();
-    return res.send({success:true,message:"Category created++",Category})
+    return res.send({success:true,message:"Category created",Category})
 });
 
 
