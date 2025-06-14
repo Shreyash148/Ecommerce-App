@@ -19,16 +19,16 @@ async(req,res)=>{
     if(existingCategory){
         return res.send({success:false,message:"Category already exists"});
     }
-    const category = new Category({name,slug:slugify(name)});
+    const category = new category({name,slug:slugify(name)});
     await category.save();
-    return res.send({success:true,message:"Category created",category})
+    return res.send({success:true,message:"Category created",Category})
 });
 
 
 //getall category
 route.get('/getall',async(req,res)=>{
     try {
-        const category = await Category.find();
+        const category = Category.find();
 
         return res.send({success:true,category}); 
     } catch (error) {
@@ -38,8 +38,8 @@ route.get('/getall',async(req,res)=>{
 //get specific category
 route.get('/getone/:id', async(req,res)=>{
     try {
-        const category = await Category.findOne({_id:req.params.id});
-    return res.send({success:true,category}); 
+        const category = Category.findOne({_id:req.params.id});
+    return res.redirect({success:true,category}); 
     } catch (error) {
         return res.send({success:false,message:"something went wrong",error});
     }
@@ -54,7 +54,7 @@ route.put('/update/:id',isAdmin, async(req,res)=>{
         const category = await Category.findByIdAndUpdate(id,{name,slug:slugify(name)}).then();
         return res.send({success:true,category,message:"category updated successfully"}); 
     } catch (error) {
-        return res.send({success:false,message:"something went wrong",error});
+        return res.send({success:false,message:"something went wrong",errors});
     }
 });
 
